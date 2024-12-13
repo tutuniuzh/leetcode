@@ -288,3 +288,4 @@ long long kthLargestLevelSum(struct TreeNode* root, int k) {
 // however as the test case updated, some extream cases are really terriable for the quickselect
 // mergeSort has a stable performance, but the best optimise algrothim would still take 200ms 
 // heapsort is the best one stop solution for this problem, but it is not fast enough
+// the best practice for this problem should be blend bubble sort + quickSelect
